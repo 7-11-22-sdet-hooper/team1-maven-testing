@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: group.calculator.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in group.calculator.AppTest
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.067 s <<< FAILURE! - in group.calculator.AppTest
+multTest  Time elapsed: 0.014 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <2>
+	at group.calculator.AppTest.multTest(AppTest.java:24)
+
+divTest  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <2>
+	at group.calculator.AppTest.divTest(AppTest.java:29)
+
