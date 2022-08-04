@@ -11,7 +11,7 @@ public class AppTest {
 	
 	@Test
 	public void sumTest() {
-		assertEquals(2, c.sum(1,1));
+		assertEquals(5, c.sum(1,1));
 	}
 	
 	@Test
